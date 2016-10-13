@@ -1,0 +1,33 @@
+Source: python-s3transfer
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>
+Build-Depends: debhelper (>= 9)
+	, python-all
+	, python-setuptools
+	, python3-all
+	, python3-setuptools
+	, python-concurrent.futures
+	, dh-python
+Standards-Version: 3.9.8
+Homepage: https://github.com/boto/s3transfer
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-s3transfer.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-s3transfer.git
+
+Package: python-s3transfer
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description:  Amazon S3 Transfer Manager for Python2
+ S3transfer is a Python library for managing Amazon S3 transfers.
+ .
+ This package contains the module for Python 2.
+ 
+
+Package: python3-s3transfer
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description:  Amazon S3 Transfer Manager for Python3
+ S3transfer is a Python library for managing Amazon S3 transfers.
+ .
+ This package contains the module for Python 3.

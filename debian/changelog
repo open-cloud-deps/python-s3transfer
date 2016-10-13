@@ -1,0 +1,5 @@
+python-s3transfer (0.1.8-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #840662)
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Fri, 14 Oct 2016 01:00:33 +0900
