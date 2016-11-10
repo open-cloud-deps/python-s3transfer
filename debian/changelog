@@ -1,8 +1,8 @@
-python-s3transfer (0.1.9-1) UNRELEASED; urgency=medium
+python-s3transfer (0.1.9-1) unstable; urgency=medium
 
   * New upstream version 0.1.9
 
- -- TANIGUCHI Takaki <takaki@asis.media-as.org>  Thu, 10 Nov 2016 19:54:19 +0900
+ -- TANIGUCHI Takaki <takaki@debian.org>  Thu, 10 Nov 2016 19:54:46 +0900
 
 python-s3transfer (0.1.8-1) unstable; urgency=medium
 
